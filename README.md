@@ -1,5 +1,5 @@
  $baglan = curl_init();
-    curl_setopt($baglan, CURLOPT_URL, "https://www.sahibinden.com/");
+    curl_setopt($baglan, CURLOPT_URL, "https://www.");
     curl_setopt($baglan, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($baglan, CURLOPT_FOLLOWLOCATION, TRUE);
     curl_setopt($baglan, CURLOPT_SSL_VERIFYPEER, false);
